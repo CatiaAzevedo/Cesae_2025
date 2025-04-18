@@ -1,0 +1,155 @@
+* {   /
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garantir que o padding e a borda não afetem o tamanho total dos elementos - com* fica tudo asim */
+}
+
+#catia-azevedo {
+    margin-bottom: 60px; /* ou mais, ajusta ao teu gosto */
+}
+
+#o-meu-percurso, #curiosidades {
+    margin-bottom: 10px; /* ou mais, ajusta ao teu gosto */
+}
+
+.noto-sans> {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+
+.espaco-extra {
+    margin-top: 20px;  /* Espaço acima do parágrafo */
+    margin-bottom: 20px;  /* Espaço abaixo do parágrafo */
+}
+
+/* Alinhar a imagem e o texto */
+.conteudo {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;  /* Espaça o conteúdo entre a imagem e o texto */
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+.conteudo-reverse {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;  /* Espaça o conteúdo entre a imagem e o texto */
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+/* Alinhar o conteúdo do segundo bloco */
+.conteudo-reverse .texto {
+    margin-right: 40px; /* Adiciona um espaço à direita do texto */
+    max-width: 600px; /* Limita a largura do texto */
+}
+
+/* Garantir que todas as imagens tenham o mesmo tamanho */
+img {
+    width: 300px; /* Largura fixa para todas as imagens */
+    height: 350px; /* Altura fixa para todas as imagens */
+    border-radius: 20%; /* Bordas arredondadas */
+    object-fit: cover; /* Faz a imagem cobrir completamente a área definida sem distorção */
+    margin-top: 40px;
+}
+
+/* Adicionar um estilo consistente à caixa de texto */
+.caixa-texto {
+    background-color: #cbddb5;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 500px; /* Garantir que o texto não ultrapasse uma largura máxima */
+    margin-left: 30px;
+    box-shadow: 0 4px 20px rgba(145, 231, 92, 0.3);
+}
+
+/* Estilo da navegação */
+nav {
+    position: fixed;
+    background-color: #cbddb5;
+    padding: 10px;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav .formulario-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilo para o fundo superior */
+.fundo-superior {
+    background-image: url('imagens/imagem.png');
+    background-size: cover;
+    background-position: center;
+    height: 275px; /* Ocupa metade da altura da tela */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.texto {
+    max-width: 600px; /* Limita a largura do texto */
+    margin-left: 40px; /* Dá espaço à esquerda do texto */
+    margin-right: 30px;
+}
+
+/* Definindo a fonte para toda a página */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão para todos os elementos */
+}
+
+/* Remover margens do seletor geral */
+.caixa-texto {
+    background-color: #cbddb5;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+/* Estilo de links */
+a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: black; /* Muda a cor do link para preto */
+    font-weight: bold;
+}

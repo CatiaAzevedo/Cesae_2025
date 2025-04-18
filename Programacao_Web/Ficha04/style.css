@@ -1,0 +1,34 @@
+.container-top { 
+    background-color: green;
+    height: 250px;  /*altura do container*/
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.title-top {
+    color: white;
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Garantir que fique sobre outros elementos */
+  }
+
+#carouselExample {
+    width: 100%;               /* O carrossel vai ocupar 100% da largura disponível */
+    max-width: 500px;          /* Definindo a largura máxima para o carrossel */
+    height: auto;        /* Garante que não haja espaço à esquerda */
+}
+
+#carouselExample .carousel-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+#carouselExample .carousel-item img {
+    width: 100%;
+    height: 400px;  /*altura*/
+    object-fit: cover;
+}
