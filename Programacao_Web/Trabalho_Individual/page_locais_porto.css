@@ -1,0 +1,150 @@
+.container-locais {
+    background-image: url("Imagens_Figma/pexels-alex-andrews-271121-1203808\ 2.png");
+    background-color: #1E1E1ECF;
+    background-size: cover;
+    background-position: center;
+    height: 1036px;
+    width: 100%; /* ou qualquer altura que quiser */
+    position: relative;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {    /*cor por cima da foto*/
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #1E1E1ECF;
+/* Cor semitransparente */
+z-index: 1; /* Coloca a camada de cor acima da imagem */
+justify-content: center;
+display: flex;
+align-items: center;
+height: 1036px;
+align-items: center;
+}
+
+.icon-nav {
+display: block;
+}
+
+.nav li:first-child {
+margin-right: auto;
+}
+
+.navbar-container {
+position: absolute;
+top: 20px;
+right: 40px;
+justify-content: space-between;
+align-items: flex-start;
+color: white;
+}
+
+.nav-item {
+font-family: "Jura";
+font-weight: 700;
+font-size: 25px;
+line-height: 118%;
+letter-spacing: 0;
+height: 30px;
+top: 33px;
+left: 780px;
+margin-right: 10px;
+z-index: 10;
+}
+
+.nav-link {
+color: white !important;
+}
+
+.icon-nav {
+display: block;
+}
+
+.form-locais {
+    z-index: 20;
+    height: 642px;
+    width: 466px;
+    background-color: #D9D9D9;
+    border-radius: 35px;
+
+    /* para alinhar tudo no centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px; /* para o conteúdo não colar nas bordas */
+    text-align: left; /* texto dentro do form alinhado ao centro */
+
+    font-size: 700;
+    font-family: 'Jura';
+    position: absolute;
+    left: 10%;
+    align-items: center;
+}
+
+.form-control {
+height: 76px;
+}
+
+.button-page-locais{
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+.button-locais {
+background-color: #686931;
+color: black;
+border: none;
+width: 345px;
+height: 76px;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+text-decoration: none; /* sem sublinhado */
+display: flex;
+font-family: 'Jura';
+font-weight: 700;
+}
+
+
+.form-image {
+    position: absolute;
+    top: 200px; /* Ajuste a altura para ficar alinhada ao form */
+    right: 10%; /* distância da direita da tela */
+    z-index: 20;
+  }
+
+.form-image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto; /* Ajusta a altura da imagem automaticamente */
+    border-radius: 15px; /* Opcional, caso queira bordas arredondadas para a imagem */
+}
+
+.mapa-box {
+    background-color: #00000082;
+    height: 206px;
+    width: 465px;
+    top:663px;
+    position: absolute;
+    right: 0;
+    border-radius: 35px;
+    margin-right: 165px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    z-index: 30;
+    padding: 40px;
+    font-family: "Jura";
+}
+
+.titulo-mapa {
+    font-size: 25px;
+}

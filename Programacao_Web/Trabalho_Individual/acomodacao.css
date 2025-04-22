@@ -1,0 +1,145 @@
+.container-top {
+    background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png");
+    background-size: cover;
+    background-position: center;
+    height: 980px;
+    width: 100%; /* ou qualquer altura que quiser */
+    position: relative;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+.title-top {
+    color: white;
+}
+
+.page-title {
+position: absolute;
+text-align: center;
+justify-content: center;
+text-align: center;
+align-content: center;
+background-color: #0B1111CC;
+height: 146px;
+width: 100%;
+}
+
+.icon-nav {
+display: block;
+}
+
+.nav li:first-child {
+    margin-right: auto;
+}
+
+.navbar-container {
+position: absolute;
+top: 20px;
+right: 40px;
+justify-content: space-between;
+align-items: flex-start;
+  }
+  
+.nav-item {
+font-family: "Jura";
+font-weight: 700;
+font-size: 25px;
+line-height: 118%;
+letter-spacing: 0;
+height: 30px;
+top: 33px;
+left: 780px;
+margin-right: 10px;
+}
+
+.nav-link {
+color: #000 !important;
+}
+
+
+.container-bege {
+    background-color: rgba(180, 155, 44, 0.25); /* 0.25 = 25% transparência */
+    width: 100%;
+    font-family: "Jura";
+    font-weight: 700;
+  }
+  
+
+  .card{
+    height: 660px;
+    border-radius: 35px; /* ARREDONDAR AQUI */
+    overflow: hidden;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2); /* SOMBRA*/
+    background-color: #fff; /* FUNDO BRANCO */
+    transition: transform 0.3s ease; /* SUAVIDADE NO HOVER */
+    width: 574px;
+    
+  }
+
+  .text-center {
+    padding: 100px;
+  }
+
+  .card-title {
+    font-size: 700;
+    font-family: "Jura";
+  }
+
+  .card-text {
+    text-align: left;
+    font-size: 20px;
+  }
+
+.custom-card {
+    height: 660px;
+    width: 533px;
+    border-radius: 35px;
+    
+}
+
+.img-card{
+    border-radius: 35px; /* se quiser todos os cantos arredondados */
+    margin: 20px;
+
+  }
+
+  .black-bar {
+    background-color: #000;
+    height: 266px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    color: #ffffff;
+    font-family: Jura;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 118%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  
+  .footer-grid {
+    text-align: center;
+  }
+  
+  .footer-icons {
+    color: #ffffff;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .footer-mini-text {
+    color: #ffffff;
+    font-family: Jura;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 118%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  
