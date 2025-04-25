@@ -1,9 +1,9 @@
 .container-top {
-    background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png");
+    background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png"); /*Imagem fundo*/
     background-size: cover;
     background-position: center;
     height: 980px;
-    width: 100%; /* ou qualquer altura que quiser */
+    width: 100%; 
     position: relative;
     margin: 0;
     justify-content: center;
@@ -15,13 +15,13 @@
     color: white;
 }
 
-.page-title {
+.page-title {  /*titulo da pagina*/
 position: absolute;
 text-align: center;
 justify-content: center;
 text-align: center;
 align-content: center;
-background-color: #0B1111CC;
+background-color: #0B1111CC; 
 height: 146px;
 width: 100%;
 white-space: normal;
@@ -33,7 +33,7 @@ overflow-wrap: break-word;
   margin-right: auto;
   }
   
-  .navbar-container {
+  .navbar-container {  /*nav bar*/
   position: absolute;
   top: 2%;
   right: 2%;
@@ -41,11 +41,11 @@ overflow-wrap: break-word;
   align-items: flex-start;
   color: white;
   width: 95%;
-  font-family: Josefin Slab;
+  font-family: 'Josefin Slab';
   }
   
   .nav-item {
-  font-family: "Jura";
+  font-family: "Josefin Slab";
   font-weight: 700;
   font-size: 25px;
   line-height: 118%;
@@ -65,7 +65,7 @@ overflow-wrap: break-word;
   
   .nav-icon {
   opacity: 0.4;
-  filter: invert(100%) brightness(100%); /* Makes the color white */
+  filter: invert(100%) brightness(100%);
   }
   
   .icon-nav {
@@ -73,7 +73,7 @@ overflow-wrap: break-word;
   }
 
 .container-bege {
-    background-color: rgba(180, 155, 44, 0.25); /* 0.25 = 25% transparência */
+    background-color: rgba(180, 155, 44, 0.25); /*25% transparência */
     width: 100%;
     font-family: "Jura";
     font-weight: 700;
@@ -82,11 +82,11 @@ overflow-wrap: break-word;
 
   .card{
     height: 700px !important;
-    border-radius: 35px !important; /* ARREDONDAR AQUI */
+    border-radius: 35px !important; /* ARREDONDAR */
     overflow: hidden;
     box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.25); /* SOMBRA*/
     background-color: #fff; /* FUNDO BRANCO */
-    transition: transform 0.3s ease; /* SUAVIDADE NO HOVER */
+    transition: transform 0.3s ease;
     width: 574px;
     
   }
@@ -134,7 +134,7 @@ ul {
   font-size: 20px !important;
 }
 
-  .footer-mini-text {
+  .footer-mini-text {  /*Footer*/
     color: #ffffff;
     font-family: Jura;
     font-weight: 700;
