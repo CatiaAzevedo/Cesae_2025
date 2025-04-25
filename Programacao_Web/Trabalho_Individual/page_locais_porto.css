@@ -43,6 +43,7 @@ right: 40px;
 justify-content: space-between;
 align-items: flex-start;
 color: white;
+width: 1420px;
 }
 
 .nav-item {
@@ -97,6 +98,7 @@ align-items: center;
 margin-top: 50px;
 }
 
+
 .button-locais {
 background-color: #686931;
 color: black;
@@ -118,7 +120,17 @@ font-weight: 700;
     top: 200px; /* Ajuste a altura para ficar alinhada ao form */
     right: 10%; /* distância da direita da tela */
     z-index: 20;
+    justify-content: center;
+    align-items: center;
   }
+
+  .pin {
+    z-index: 25;
+    color: #FF0000;
+    top:300px;
+    position: absolute;
+    justify-content: center;
+}
 
 .form-image img {
     max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */

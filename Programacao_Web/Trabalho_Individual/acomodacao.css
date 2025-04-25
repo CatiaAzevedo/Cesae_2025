@@ -40,7 +40,8 @@ top: 20px;
 right: 40px;
 justify-content: space-between;
 align-items: flex-start;
-  }
+width: 1420px;
+}
   
 .nav-item {
 font-family: "Jura";
@@ -57,7 +58,6 @@ margin-right: 10px;
 .nav-link {
 color: #000 !important;
 }
-
 
 .container-bege {
     background-color: rgba(180, 155, 44, 0.25); /* 0.25 = 25% transparência */
@@ -105,6 +105,15 @@ color: #000 !important;
 
   }
 
+  .footer-mini-text {
+    color: #ffffff;
+    font-family: Jura;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 118%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
   .black-bar {
     background-color: #000;
     height: 266px;
@@ -131,15 +140,4 @@ color: #000 !important;
     padding-top: 20px;
     width: 100%;
     padding-bottom: 20px;
-  }
-  
-  .footer-mini-text {
-    color: #ffffff;
-    font-family: Jura;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 118%;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  
+  }  
