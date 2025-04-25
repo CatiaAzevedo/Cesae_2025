@@ -1,87 +1,88 @@
 .container-info {
-    background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png");
-    background-color: #1E1E1ECF;
-    background-size: cover;
-    background-position: center;
-    height: 1379px;
-    width: 100%; /* ou qualquer altura que quiser */
-    position: relative;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png");
+  background-color: #1e1e1ecf;
+  background-size: cover;
+  background-position: center;
+  height: 1379px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
-.overlay {    /*cor por cima da foto*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #1E1E1ECF; /* Cor semitransparente */
-    z-index: 1; /* Coloca a camada de cor acima da imagem */
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height: 1379px;
+.modal-backdrop {
+  opacity: 0.7 !important;
 }
 
 .img-card {
-    width: 680px;
-    height: 367px;
-    margin: 20px;
-    border-radius: 35px;
-    overflow: hidden;
-    display: flex; /* Adicionado para controlar a imagem */
+  border-radius: 35px;
+  overflow: hidden;
+  display: flex; /* Adicionado para controlar a imagem */
+  margin: 4%;
 }
-
 
 .card-img-top {
-    width: 100%; /* Para a imagem ocupar 100% da largura */
-    height: 367px; /* Tamanho fixo para a imagem, ajuste conforme necessário */
-    object-fit: cover;
+  width: 100%; /* Para a imagem ocupar 100% da largura */
+  height: 367px; /* Tamanho fixo para a imagem, ajuste conforme necessário */
+  object-fit: cover;
 }
 
-.card {
-    width: 736px;
-    height: 1262px;
-    border-radius: 15px; /* Um pouco de arredondamento para o card */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    overflow: hidden; /* Para não deixar a imagem sair do card */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Garante que o conteúdo dentro do card fique distribuído */
-    font-family: 'Jura';
-    font-size: 700;
-    overflow: hidden;
-    justify-items: center;
-    align-items: center;
+.modal-content {
+  border-radius: 35px !important; /* Um pouco de arredondamento para o card */
+  background-color: #d9d9d9 !important;
+}
+
+.footer-button {
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .card-text {
-    font-size: bold;
-    padding: 20px;
-    background-color:#D9D9D9;
-    ;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 118%;
+  font-family: "Jura";
+  padding: 30px;
 }
 
 .card-title {
-    margin-bottom: revert;
+  margin-bottom: revert;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Jura";
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.check-bullets {
+  list-style-type: none;
+  padding-left: 0;
+  list-style-position: outside;
+}
+
+.check-bullets {
+  list-style-type: none;
 }
 
 .card-body {
-    justify-items: center;
-    align-items: center;
-    background-color:#D9D9D9;
+  justify-items: center;
+  align-items: center;
+  background-color: #d9d9d9;
 }
 
 .button-info {
-    background-color: #686931;
-    color: black;
-    border: none;
-    width: 345px;
-    height: 76px;
-    justify-content: center;
-    border-radius: 15px;
+  background-color: #686931;
+  color: black;
+  border: none;
+  width: 345px;
+  height: 76px;
+  justify-content: center;
+  font-family: "Jura";
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 25px;
 }

@@ -36,31 +36,33 @@
             <div class="navbar-container" id="page_locais">
               <ul class="nav align-items-center w-100">
                 <li class="nav-item me-auto">
-                  <a class="nav-link" href="#">
-                    <img src="Icons/Vector.svg" alt="Ícone SVG" width="60" height="70">
+                  <a class="nav-link" href="index.html">
+                    <img class = "nav-icon" src="Icons/Vector.svg" alt="Ícone SVG" width="60" height="70">
                   </a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="acomodacao.html">Acomodação</a></li>
                 <li class="nav-item"><a class="nav-link" href="page_locais.html">Locais</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#Blog">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="contactos.html">Contatos</a></li>
               </ul>
             </div>
 
             <div class="form-locais">
             <form>
-                <fieldset disabled>
+                <fieldset>
                   <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label">Escolha o País</label>
-                    <input type="text" id="disabledTextInput" class="form-control" placeholder="País">
-                  </div>
-                  <div class="mb-3">
-                    <label for="disabledSelect" class="form-label">Escolha a cidade:</label>
-                    <select id="disabledSelect" class="form-control">
-                      <option>cidade</option>
+                    <label for="cidade" class="form-label">Escolha o país:</label>
+                    <select id="cidade" class="form-select">
+                      <option selected>Portugal</option>
+                      <option>Espanha</option>
                     </select>
                   </div>
                   <div class="mb-3">
+                    <label for="cidade" class="form-label">Escolha a cidade:</label>
+                    <select id="cidade" class="form-select">
+                      <option selected>Porto</option>
+                      <option>Madrid</option>
+                    </select>
                   </div>
                   <div class="button-page-locais">
                     <a href="page_locais_porto.html" class="button-locais d-flex justify-content-center align-items-center">Ver</a>
