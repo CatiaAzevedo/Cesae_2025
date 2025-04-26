@@ -1,8 +1,8 @@
 .container-contactos {
-  background-image: url("Imagens_Figma/pexels-jeremy-bishop-1260133-20146347\ 2.png");
+  background-image: url("Imagens_Figma/pexels-jeremy-bishop-1260133-20146347\ 2.png"); /*imagem de fundo*/
   background-color: #1e1e1ecf;
   height: 1036px;
-  width: 100%; /* ou qualquer altura que quiser */
+  width: 100%; 
   position: relative;
   margin: 0;
   justify-content: center;
@@ -19,7 +19,7 @@
   bottom: 0;
   background-color: #0000008c;
   /* Cor semitransparente */
-  z-index: 1; /* Coloca a camada de cor acima da imagem */
+  z-index: 1; /* profundidade */
   justify-content: center;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
   margin-right: auto;
 }
 
-.navbar-container {
+.navbar-container { /*nav bar*/
   position: absolute;
   top: 2%;
   right: 2%;
@@ -63,7 +63,7 @@
 
 .nav-icon {
   opacity: 0.4;
-  filter: invert(100%) brightness(100%); /* Makes the color white */
+  filter: invert(100%) brightness(100%); 
 }
 
 .icon-nav {
@@ -82,11 +82,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px; /* para o conteúdo não colar nas bordas */
-  text-align: left; /* texto dentro do form alinhado ao centro */
+  padding: 30px; /* espaçamento à volta */
+  text-align: left;
 
   font-size: 700;
-  font-family: "Jura";
+  font-family: "Jura"; /*tipo de letra*/
   position: absolute;
   left: 10%;
   align-items: center;
@@ -138,7 +138,7 @@
 .text-right {
   position: absolute;
   top: 100px; /* Alinhar com o formulário */
-  left: 55%; /* Ajuste a distância à direita */
+  left: 55%; 
   width: 500px;
   height: 60px;
   padding: 30px;
@@ -156,7 +156,7 @@
   font-size: 20px;
 }
 
-.btn {
+.btn {    /*botao da modal*/
   border-radius: 35px;
   justify-content: center;
   text-align: center;

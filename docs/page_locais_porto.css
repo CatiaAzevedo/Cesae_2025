@@ -1,10 +1,10 @@
 .container-locais {
-    background-image: url("Imagens_Figma/pexels-alex-andrews-271121-1203808\ 2.png");
+    background-image: url("Imagens_Figma/pexels-alex-andrews-271121-1203808\ 2.png"); /*imagem de fundo*/
     background-color: #1E1E1ECF;
     background-size: cover;
     background-position: center;
     height: 1036px;
-    width: 100%; /* ou qualquer altura que quiser */
+    width: 100%; 
     position: relative;
     margin: 0;
     justify-content: center;
@@ -23,7 +23,7 @@ right: 0;
 bottom: 0;
 background-color: #1E1E1ECF;
 /* Cor semitransparente */
-z-index: 1; /* Coloca a camada de cor acima da imagem */
+z-index: 1; /* profundidade */
 justify-content: center;
 display: flex;
 align-items: center;
@@ -43,11 +43,11 @@ justify-content: space-between;
 align-items: flex-start;
 color: white;
 width: 95%;
-font-family: Josefin Slab;
+font-family: 'Josefin Slab'; /*tipo de letra*/
 }
 
 .nav-item {
-font-family: "Jura";
+font-family: "Jura"; /*tipo de letra*/
 font-weight: 700;
 font-size: 25px;
 line-height: 118%;
@@ -59,7 +59,7 @@ margin-right: 10px;
 z-index: 10;
 }
 
-.nav-link {
+.nav-link {  /*nav bar*/
 color: white !important;
 font-family: Josefin Slab;
 text-transform: Uppercase;
@@ -67,7 +67,7 @@ text-transform: Uppercase;
 
 .nav-icon {
 opacity: 0.4;
-filter: invert(100%) brightness(100%); /* Makes the color white */
+filter: invert(100%) brightness(100%);
 }
 
 .icon-nav {
@@ -86,27 +86,27 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: column;
 justify-content: center;
-padding: 30px; /* para o conteúdo não colar nas bordas */
-text-align: left; /* texto dentro do form alinhado ao centro */
+padding: 30px; /* espaçamento a volta */
+text-align: left;
 position: absolute;
 left: 10%;
 align-items: center;
 }
 
 .form-select {
-border-radius: 15px !important;
+border-radius: 15px !important; /*bordas arredondadas*/
 height: 76px;
 font-weight: bold !important;
 font-size: 25px !important;
 }
 
-.button-page-locais{
+.button-page-locais{   /*div do botao formulario*/
 justify-content: center;
 align-items: center;
 margin-top: 50px;
 }
 
-.button-locais {
+.button-locais {   /*botao formulario*/
 background-color: #686931;
 color: black;
 border: none;
@@ -124,28 +124,28 @@ font-weight: 700;
 
 .form-image {
     position: absolute;
-    top: 20%; /* Ajuste a altura para ficar alinhada ao form */
-    right: 10%; /* distância da direita da tela */
+    top: 20%; 
+    right: 10%; 
     z-index: 20;
     justify-content: center;
     align-items: center;
   }
   
-  .pin {
+  .pin {   /*pin do mapa*/
     position: absolute;
-    top: 40%;   /* percent of map height */
-    left: 55%;  /* percent of map width */
+    top: 40%;   
+    left: 55%;  
     transform: translate(-50%,-100%);
     color:#FF0000;
   }
 
 .form-image img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
-    height: auto; /* Ajusta a altura da imagem automaticamente */
-    border-radius: 15px; /* Opcional, caso queira bordas arredondadas para a imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapassa o tamanho do container */
+    height: auto; 
+    border-radius: 15px; /*bordas arredondadas*/
 }
 
-.mapa-box {
+.mapa-box {  /*caixa de texto abaixo do mapa*/
     background-color: #00000082;
     height: fit-content;
     width: 490px;

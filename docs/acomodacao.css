@@ -112,7 +112,12 @@ overflow-wrap: break-word;
     height: 660px;
     width: 533px;
     border-radius: 35px;
-    
+}
+
+.cards-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-card{

@@ -1,5 +1,5 @@
 .container-info {
-  background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png");
+  background-image: url("Imagens_Figma/pexels-lureofadventure-28365967\ 2.png");  /* imagem fundo*/
   background-color: #1e1e1ecf;
   background-size: cover;
   background-position: center;
@@ -13,28 +13,28 @@
 }
 
 .modal-backdrop {
-  opacity: 0.7 !important;
+  opacity: 0.7 !important;   /*opacidade*/
 }
 
-.img-card {
-  border-radius: 35px;
+.img-card { 
+  border-radius: 35px;  /*bordas arredondadas da imagem*/
   overflow: hidden;
-  display: flex; /* Adicionado para controlar a imagem */
+  display: flex; 
   margin: 4%;
 }
 
 .card-img-top {
   width: 100%; /* Para a imagem ocupar 100% da largura */
-  height: 367px; /* Tamanho fixo para a imagem, ajuste conforme necessário */
+  height: 367px; /* Tamanho fixo para a imagem */
   object-fit: cover;
 }
 
 .modal-content {
-  border-radius: 35px !important; /* Um pouco de arredondamento para o card */
+  border-radius: 35px !important; /* arredondamento para a modal */
   background-color: #d9d9d9 !important;
 }
 
-.footer-button {
+.footer-button {    /*estilização do footer*/
   justify-content: center;
   padding-bottom: 20px;
 }
@@ -50,8 +50,8 @@
 .card-title {
   margin-bottom: revert;
   font-size: 30px;
-  font-weight: bold;
-  font-family: "Jura";
+  font-weight: bold;  /*negrito*/
+  font-family: "Jura";  /*tipo de letra*/
   font-size: 30px;
   justify-content: center;
   display: flex;
@@ -59,9 +59,9 @@
 }
 
 .check-bullets {
-  list-style-type: none;
+  list-style-type: none;  /*retirar pontos para ficar apenas o check*/
   padding-left: 0;
-  list-style-position: outside;
+  list-style-position: outside;   /*alinhar ao texto (ponto a esquerda)*/
 }
 
 .check-bullets {
@@ -71,18 +71,18 @@
 .card-body {
   justify-items: center;
   align-items: center;
-  background-color: #d9d9d9;
+  background-color: #d9d9d9;  /*dor da modal*/
 }
 
-.button-info {
-  background-color: #686931;
-  color: black;
-  border: none;
+.button-info {     /*botao modal*/
+  background-color: #686931;  /*cor botao*/
+  color: black;  /*cor das letras do botao*/
+  border: none;  /*sem borda*/
   width: 345px;
   height: 76px;
   justify-content: center;
-  font-family: "Jura";
-  border-radius: 15px;
-  font-weight: bold;
+  font-family: "Jura";  /*tipo de letra*/
+  border-radius: 15px; /*arredondamento*/
+  font-weight: bold; /*negrito*/
   font-size: 25px;
 }
